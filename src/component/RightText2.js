@@ -1,6 +1,7 @@
 import React from 'react'
 
 const RightText2 = () => {
+    
     return (
         <section className='heroSection'>
             <div className="row d-flex flex-row justify-content-between align-items-center  m-0 p-0">

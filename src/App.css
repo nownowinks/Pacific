@@ -3,16 +3,18 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
   font-family: "Poppins", sans-serif;
+
 }
 
 .heroSection .row {
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
 .heroHeading {
   font-size: 3rem;
+  margin-top: 5px;
 }
 
 .right {
@@ -23,7 +25,7 @@
 }
 
 .heroImage {
-  max-width: 500px !important;
+  max-width: 700px !important;
   margin-left: auto;
 }
 
@@ -112,4 +114,17 @@ footer.nb-footer .copyright p {
 .col-sm-12 p {
   display: flex;
   justify-content: center;
+}
+
+#pp {
+  display: flex;
+  justify-content: end;
+  background: linear-gradient(90deg, rgb(13, 239, 231), #03362c);
+  font-family: Poppins;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+
 }

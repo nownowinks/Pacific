@@ -12,6 +12,7 @@ import RightText4 from "../component/RightText4";
 import Title from "../component/Title";
 import TitleContainer from "../component/utility/TitleContainer";
 import Section8 from "../component/Section8";
+import Parallax from '../component/Parallax/Parallax';
 
 const Homepage = () => {
   const countries = [
@@ -30,8 +31,10 @@ const Homepage = () => {
 
   return (
     <div>
-      <Section1 />
-      <Section2 countries={countries} />
+      {/* <Section1 /> */}
+      {/* <ParallaxComp/> */}
+      <Parallax/>
+      {/* <Section2 countries={countries} />
       <RightText />
       <Title />
       <Section8 />
@@ -71,7 +74,7 @@ const Homepage = () => {
       <Section3 courses={courses} />
 
       <Gradient />
-      <Section4 />
+      <Section4 /> */}
     </div>
   );
 };

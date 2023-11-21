@@ -2,9 +2,12 @@ import React from 'react'
 
 const Gradient = () => {
   return (
-    <section className='gradient'>
-hello
-    </section>
+//     <section className='gradient'>
+// hello
+//     </section>
+<>
+  
+</>
   )
 }
 

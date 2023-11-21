@@ -3,7 +3,7 @@ import "../component/Allcss.css";
 
 const Section2 = (props) => {
   return (
-    <div class="container">
+    <div class="container" style={{backgroundColor:"#d56c1b", height:"100vh"}}>
       <div class="card">
         <div class="box">
           <div class="imgbox">
